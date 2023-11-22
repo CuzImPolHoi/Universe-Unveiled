@@ -1,7 +1,11 @@
+
+# LIBRARIES
 import pygame
 
 class Overlay:
     def __init__(self, width, height, alpha):
+        
+        # general Variables
         self.width = width
         self.height = height
         self.alpha = alpha  # Transparency level
